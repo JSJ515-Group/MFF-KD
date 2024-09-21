@@ -65,6 +65,7 @@ jobs:
           python --version
           pip --version
           pip list
+          pip install timm  # 在这里明确安装 timm
       - name: Test HUB training
         shell: python
         env:
